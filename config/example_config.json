@@ -1,0 +1,17 @@
+{
+  "gravity_file": "data/raw/gravity.csv",
+  "magnetic_file": "data/raw/magnetic.csv",
+  "copper_occurrences_file": "data/raw/copper_occurrences.csv",
+  "output_data_dir": "data/processed",
+  "output_figure_dir": "outputs/figures",
+  "latitude_column": "latitude",
+  "longitude_column": "longitude",
+  "gravity_features": ["bouguer_anomaly", "elevation"],
+  "magnetic_feature": "magnetic_anomaly",
+  "matching_radius_km": 1.0,
+  "contamination": 0.05,
+  "random_state": 42,
+  "coordinate_precision": 5,
+  "reference_distance_km": 1.0,
+  "top_candidate_count": 25
+}
